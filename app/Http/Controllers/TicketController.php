@@ -102,8 +102,9 @@ class TicketController extends Controller {
     public function serach(Request $request) {
         $reference = $request->reference;
         $ticket = SupportTicket::where('reference', $request->reference)->first();
+        $searched = true;
         
-        return view('frontend.tickets', compact('ticket','reference'));
+        return view('frontend.tickets', compact('ticket','reference', 'searched'));
     }
 
 }
