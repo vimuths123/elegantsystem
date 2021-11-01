@@ -25,3 +25,7 @@ Need to configure laravel and configure mail inside .env. And need use the db fr
 - [Laravel Javascript Validation (For using same validations in front and backends)](https://github.com/proengsoft/laravel-jsvalidation).
 
 
+## User login for agent
+
+Email - elegantsystemtest@gmail.com
+Password - elegant123
